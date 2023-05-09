@@ -82,3 +82,18 @@
 .destination strong {
   color: rgb(0, 160, 117);
 }
+
+footer {
+  background-color: black;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  /* width: 100%; */
+  width: 25px;
+}
