@@ -83,21 +83,3 @@
   color: rgb(0, 160, 117);
 }
 
-footer {
-  background-color: black;
-}
-
-footer ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer li {
-  width: 50px;
-  height: 50px;
-}
-
-footer img {
-  width: 100%;
-}
