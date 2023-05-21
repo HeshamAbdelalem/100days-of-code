@@ -13,13 +13,27 @@ main li {
   display: flex;
   background-color: white;
   padding: 0;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
 }
 
 main li img {
   width: 300px;
   height: 280px;
+  object-fit: cover;
 }
 
 .item-content {
   padding: 24px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+li div.action {
+  align-self: flex-end;
+  justify-self: end;
+  background-color: yellowgreen;
 }
